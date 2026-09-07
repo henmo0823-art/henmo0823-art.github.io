@@ -77,8 +77,8 @@ gitalk:
 ba_track_id: 89da870b7791833f0464092a39c20cbe
 
 # Google Analytics
-# ga_track_id: ''            # Format: UA-xxxxxx-xx
-# ga_domain: auto           # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_track_id: 'G-4PVQ9R0WTH'            # Format: UA-xxxxxx-xx
+ga_domain: auto           # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
