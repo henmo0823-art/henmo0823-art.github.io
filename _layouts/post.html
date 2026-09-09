@@ -100,6 +100,7 @@ layout: default
                     admin: ['{{site.gitalk.admin}}'],
                     distractionFreeMode: {{site.gitalk.distractionFreeMode}},
                     id: md5(location.pathname),
+                    redirectUri: '{{site.gitalk.redirectUri}}',        //强制固定回调地址！和OAuth里注册的完全一致，不要末尾斜杠
                     });
                     gitalk.render('gitalk-container');
                 </script>

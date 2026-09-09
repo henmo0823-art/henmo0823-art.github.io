@@ -64,10 +64,11 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: Ov23liaSNz9wwT3Aom8D                          #生成的clientID
   clientSecret: f2d8e8f11f0d08c4670d042aac01394af9c41a83    #生成的clientSecret
-  repo: henmo0823-art.github.io    #仓库名称
+  repo: blog-comments    #仓库名称
   owner: henmo0823-art    #github用户名
   admin: henmo0823-art
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
+  redirectUri: https://henmo0823-art.github.io
 
 
 # 统计
