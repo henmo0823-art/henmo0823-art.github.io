@@ -4,14 +4,14 @@ SEOTitle: Mokey的博客 | Mokey Blog
 header-img: img/post-bg-desk.jpg
 email: henmo0823@gmail.com
 description: "Every failure is leading towards success."
-keyword: "Mokey, Mokey Blog, Mokey的博客, henmo0823, 莫季华, iOS, Apple, iPhone"
+keyword: "Mokey, Mokey Blog, Mokey的博客, henmo0823, 莫季华"
 url: "http://henmo0823-art.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/henmo0823-art/henmo0823-art.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                          # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
+sidebar-about-description: "人生不过短短三万天!"
 sidebar-avatar: /img/about-Mokey.webp      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -56,19 +56,7 @@ kramdown:
 
 
 # 评论系统
-# Disqus（https://disqus.com/）
-disqus_username: disqus_20DpNFXh2X
-
-# Gitalk
-gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: Ov23liaSNz9wwT3Aom8D                          #生成的clientID
-  clientSecret: f2d8e8f11f0d08c4670d042aac01394af9c41a83    #生成的clientSecret
-  repo: blog-comments    #仓库名称
-  owner: henmo0823-art    #github用户名
-  admin: henmo0823-art
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
-  redirectUri: https://henmo0823-art.github.io
+# 采用 Giscus
 
 
 # 统计
